@@ -1,4 +1,212 @@
 ---
 layout: default
-title: Home
+title: Movies&Stuff
 ---
+
+<nav class="navbar">
+  <h1 class="logo">
+    <a href="#">Moves <mark class="logo-amp">&</mark> Stuff</a>
+  </h1>
+
+  <ul class="menu">
+    <li class="menu-item>
+        <a href="#movies" class="">Movies</a>
+    </li>
+    <li class="menu-item>
+      <a href="#tv-shows">TV Shows</a>
+    </li>
+    <liclass="menu-item>
+      <a href="#">Subscribe</a>
+    </li>
+  </ul>
+</nav>
+
+<header class="poster">
+  <article class="featured-movie">
+    <figure class="featured-movie-poster">
+      <img src="{{root}}/images/deadpool-preview.jpg"
+        alt="new movie Deadpool">
+    </figure>
+
+    <section class="featured-movie-information">
+      <h2 class="featured-movie-name">Deadpool</h2>
+
+        <section class="featured-movie-rating">
+          <img src="{{root}}/images/star.png"
+               class="featured-movie-rating-item">
+          <img src="{{root}}/images/star.png"
+               class="featured-movie-rating-item">
+          <img src="{{root}}/images/star.png"
+               class="featured-movie-rating-item">
+          <img src="{{root}}/images/star.png"
+              class="featured-movie-rating-item">
+          <img src="{{root}}/images/star-copy.png"
+              class="featured-movie-rating-item">
+        </section>
+
+      <p class="featured-movie-description">
+        A fromer Special Forces operative turned mercenary is subjeced to rouge
+        experiment that leaves him with accelerated healing powers, adopting
+        the alter ego Deadpool
+      </p>
+
+      <footer class="featured-movie-meta">
+        R | 180 min | Action,Adventure,Comedy |
+        <time datetime="12-02-2016"> 12 February 2016</time>
+      </footer>
+    </section>
+  </article>
+</header>
+
+<section class="popular-movies" id="movies">
+  <a href="#">
+    <h1>Popular Movies</h1>
+  </a>
+
+  <a href="#"
+    class="all-movies">
+    View All movies
+  </a>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/the-martian-preview.jpg"
+           title="The Martian"
+           alt="The Martian">
+    </a>
+  </figure>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/inside-out-preview.jpg"
+           title="Inside Out"
+           alt="Inside Out">
+    </a>
+  </figure>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/jurassic-world-preview.jpg"
+           title="Jurassic World"
+           alt="Jurassic World">
+    </a>
+  </figure>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/mad-max-preview.jpg"
+           title="Mad Max"
+           alt="Mad Max">
+    </a>
+  </figure>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/star-wars-force-awakens-preview.jpg"
+           title="Star Wars Force Awakens"
+           alt="Star Wars Force Awakens">
+    </a>
+  </figure>
+
+  <figure class="popular-movies-item">
+    <a href="#">
+      <img src="{{root}}/images/avengers-age-of-ultron-preview.jpg"
+           title="Avengers Age of Ultron"
+           alt="Avengers Age of Ultron">
+    </a>
+  </figure>
+</section>
+
+<section class="popular-shows" id="tv-shows">
+  <a href="#">
+    <h1>Popular TV Shows</h1>
+  </a>
+
+  <a href="#">
+    class="all-shows">
+    View All TV sows
+  </a>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/walking-dead-preview.jpg"
+           title="Walking Dead"
+           alt="Walking Dead">
+    </a>
+  </figure>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/game-of-thrones-preview.jpg"
+           title="Game of Thrones"
+           alt="Game of Thrones">
+    </a>
+  </figure>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/breaking-bad-preview.jpg"
+           title="Breaking Bad"
+           alt="Breaking Bad">
+    </a>
+  </figure>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/empire-preview.jpg"
+           title="Empire"
+           alt="Empire">
+    </a>
+  </figure>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/master-of-none-preview.jpg"
+           title="Master of None"
+           alt="Master of None">
+    </a>
+  </figure>
+
+  <figure class="popular-shows-item">
+    <a href="#">
+      <img src="{{root}}/images/mr-robot-preview.jpg"
+           title="Mr Robot"
+           alt="Mr Robot">
+    </a>
+</figure>
+
+<section class="subscription" id="subscription">
+  <form class="subscription-form">
+    <legend class="subscription-form-description">
+      Get the best Movie &amp TV Show trailers straght in your inbox each week
+    </legend>
+
+    <input type="text"
+           name="username"
+           placeholder="First-Name"
+           class="first-name">
+
+    <input type="email"
+           name="email-address"
+           placeholder="Email Address"
+           class="email">
+
+    <input type="submit"
+           name="submit"
+           value="Subscribe"
+           class="subscribe">
+  </form>
+</section>
+
+<footer class="main-footer">
+  <h1>Movies &amp Stuff</h1>
+
+  <p>
+    <small class="copyrig">©2016 Movies &amp Stuff. All Rights Reserved</small>
+
+    <small>
+      <a href="#" class="service">Terms of service</a>
+      <a href="#" class="privacy">Privacy Policy</a>
+    </small>
+  </p>
+</footer>
